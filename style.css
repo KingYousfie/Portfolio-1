@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,80);
+
+
+body,html{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background: rgb(196,96,254);
+    background: linear-gradient(0deg, rgba(196,96,254,1) 0%, rgba(205,43,212,1) 100%);
+    color: white;
+}
+
+.title{
+    color: white;
+}
+
+.heroimg {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    font-size: 35px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ToButton{
+    color: white;
+    font-size: 30px;
+}
+
+.ToButton:hover{
+    color: black;
+}
+
+.overMij{
+    height: fit-content;
+    background-color: transparent;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+.overMijTitle{
+    text-align: center;
+    font-size: 35px;
+}
+
+.overMijText{
+    text-align: center;
+    font-size: 25px;
+}
+hr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 2.5px;
+    background-color: lightgray;
+    border: none;
+    width: 70%;
+}
